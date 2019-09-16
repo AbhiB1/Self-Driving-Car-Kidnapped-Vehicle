@@ -43,7 +43,7 @@ class ParticleFilter {
    * @param std[] Array of dimension 3 [standard deviation of x [m], 
    *   standard deviation of y [m], standard deviation of yaw [rad]]
    */
-  void init(double x, double y, double theta, double std[]);
+  void init(double x, double y, double theta, double std_pos[]);
 
   /**
    * prediction Predicts the state for the next time step
